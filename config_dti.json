@@ -1,0 +1,52 @@
+{ "//firstTitle_comment":  "GENERAL THINGS", 
+  "base_dir": "/path/to/base_directory", 
+  "ageGroup": "newborn", 
+  "//ageGroup_alternatives":  "newborn, child, adolescent, fetus",
+
+  "pipe_kind": "group_create_average",
+  "//pipe_kind_alternatives": "group_take_average, group_create_average, single_subject_alone",  
+  "//pipe_kind_take": "group_take_average: takes an already precalculated group average. Make sure that the response function is saved in working_directory/Group/Comparison/responsemean/",
+  "//pipe_kind_create": "Creates a group average response function.", 
+  "//pipe_kind_single_subject": "Will not create or take a group average but will only be run for one subject.", 
+
+  "structural_type": "", 
+  "//structural_type_alternatives":  "t2, t1",
+
+  "start": "",
+  "//start_comment": "skipDP = skips DTI preprocessing. means it will start with the structural perpocessing; alternative leave empty ",
+
+  "//secondTitle_comment": "TRACTOGRAPHY", 
+  "rfe": "SS2T", 
+  "//rfe_alternatives":  "SSST, SS2T, SS3T",  
+
+  "5tt_provided": "no",
+  "//5tt_alternative": "yes, no, freesurfer, genFSL",
+  "//5tt_comment_yes": "if yes: must be named 5tt_reg_to_dwi.nii.gz and already registered to subject diffusion space and saved under /processing/t2/Labels/5tt_reg_to_dwi.nii.gz", 
+  "//5tt_comment_freesurfer": "if freesurfer: must be named aparc+aseg.mgz or aseg.mgz in /subj/t2/. And identify freesurfer version",
+  "//5tt_comment_genFSL": "will use FSL to create the 5tt file",
+  "//5tt_comment_no": "will use the in-house UNET for neonatal segmentation by Kelly Payette", 
+  "freesurfer_version": "5.3",
+
+  "seg_atlas_path": "./resized_atlas_39_t2_h_padded.nii.gz",
+  "//segmentation_path": "Atlas used for segmentation of this specific age group correctly padded", 
+
+  "seeding": "dynamic", 
+  "//seeding_alternatives":  "dynamic, GMWM",
+
+  "streamlinesACT": "10000000",
+  "streamlinesSIFT": "",
+  "//streamline_comment": "ACT must be bigger than SIFT, streamlinesSIFT only must be chosen when SIFT1 method is used",
+
+  "SIFTmeth": "sift2", 
+  "//SIFTmeth_alternatives":  "sift1, sift2",
+
+  "//ParcellationTitle": "PARCELLATION. PLEASE READ THE INSTRUCTIONS CAREFULLY", 
+  "parcellationMethod": "ENA33_improved",
+  "//parcellation_alternatives": "theSpecificAtlasName, ENA33_improved: use this to invoke the ena33 pipeline; none",
+  "//parcellation_comment1": "If you chose a specific atlas as parcellation method please fill out the following:",
+  "parcellation_t2": "/path/to/structural/nifti/of/Atlas",
+  "parcellation_labels": "/path/to/labels/nifti/of/Atlas",
+  "//parcellation_comment2": "If you chose 'none' as parcellation method please define the name of the existing parcellation 'parcellationName', so that a corresponding folder can be created.",
+  "parcellationName": "k-clus1000"
+
+}
