@@ -5,7 +5,7 @@
 This pipeline creates structural connectomes based on single-shell diffusion MR images (dMRI) and good resolution structural images. It’s applicable for neonatal, school-age or adolescent data and it includes the following steps: 
 
 
-Preprocessing dMRI:
+__Preprocessing dMRI:__
 
 
   *	denoising (DIPY) 
@@ -22,7 +22,7 @@ Preprocessing dMRI:
 
 
 
-Structural preprocessing: 
+__Structural preprocessing:__ 
 
   
   *	Neonatal tissue segmentation (based on inhouse UNet algorithm by Kelly Payette, or option to use FSL or Freesurfer output)
@@ -33,7 +33,7 @@ Structural preprocessing:
 
 
 
-Tractogram creation (MRtrix): 
+__Tractogram creation (MRtrix):__ 
 
   
   *	response function estimation
@@ -47,7 +47,7 @@ Tractogram creation (MRtrix):
 
 
 
-Connecome creration (MRtrix): 
+__Connecome creration (MRtrix):__ 
 
   
   *	GM parcellation based on an atlas
@@ -56,11 +56,15 @@ Connecome creration (MRtrix):
   *	connectome creation
 
 
+
+
 # Contributors:
-Anna Speckert: main author, pipeline implementation 
+__Anna Speckert:__ main author, pipeline implementation 
 
 
-Kelly Payette: neonatal segmentation algorithm 
+__Kelly Payette:__ neonatal segmentation algorithm 
+
+
 
 
 # Prerequisites to use the pipeline: 
@@ -101,3 +105,26 @@ Kelly Payette: neonatal segmentation algorithm
 
 
   * Run ‘DTI_Pipeline.py’
+
+
+
+
+# Citations:
+
+
+* Pipeline is described in: [todo]
+
+
+
+__Software included in this pipeline:__
+* Avants, B. B., Tustison, N., & Johnson, H. (2014). Advanced Normalization Tools (ANTS) Release 2.x. https://brianavants.wordpress.com/2012/04/13/updated-ants-compile-instructions-april-12-2012/
+* Dhollander, T., Clemente, A., Singh, M., Boonstra, F., Civier, O., Duque, J. D., Egorova, N., Enticott, P., Fuelscher, I., Gajamange, S., Genc, S., Gottlieb, E., Hyde, C., Imms, P., Kelly, C., Kirkovski, M., Kolbe, S., Liang, X., Malhotra, A., … Caeyenberghs, K. (2021). Fixel-based Analysis of Diffusion MRI: Methods, Applications, Challenges and Opportunities. In NeuroImage (Vol. 241). Academic Press Inc. https://doi.org/10.1016/j.neuroimage.2021.118417
+* Dhollander, T., Mito, R., Raffelt, D., & Connelly, A. (2019, May). Improved white matter response function estimation for 3-tissue constrained spherical deconvolution. Proc. Intl. Soc. Mag. Reson. Med (Vol. 555, No. 10).
+* Fadnavis, S., Batson, J., & Garyfallidis, E. (2020). Patch2Self: Denoising Diffusion MRI with Self-Supervised Learning.
+* Smith, R. E., Tournier, J.-D., Calamante, F., & Connelly, A. (2012). Anatomically-constrained tractography: Improved diffusion MRI streamlines tractography through effective use of anatomical information. NeuroImage, 62(3), 1924–1938. https://doi.org/10.1016/j.neuroimage.2012.06.005
+* Smith, R. E., Tournier, J.-D., Calamante, F., & Connelly, A. (2015). SIFT2: Enabling dense quantitative assessment of brain white matter connectivity using streamlines tractography. NeuroImage, 119, 338–351. https://doi.org/10.1016/j.neuroimage.2015.06.092
+* Smith, S. M., Jenkinson, M., Woolrich, M. W., Beckmann, C. F., Behrens, T. E. J., Johansen-Berg, H., Bannister, P. R., De Luca, M., Drobnjak, I., Flitney, D. E., Niazy, R. K., Saunders, J., Vickers, J., Zhang, Y., De Stefano, N., Brady, J. M., & Matthews, P. M. (2004). Advances in functional and structural MR image analysis and implementation as FSL.
+* Tournier, J.-D., Calamante, F., & Connelly, A. (2010). Improved probabilistic streamlines tractography by 2nd order integration over fibre orientation distributions. Proceedings of the International Society for Magnetic Resonance in Medicine, 1670.
+* Tournier, J.-D., Smith, R., Raffelt, D., Tabbara, R., Dhollander, T., Pietsch, M., Christiaens, D., Jeurissen, B., Yeh, C.-H., & Connelly, A. (2019). MRtrix3: A fast, flexible and open software framework for medical image processing and visualisation. NeuroImage, 202, 116137. https://doi.org/10.1016/j.neuroimage.2019.116137
+* Tustison, N. J., Avants, B. B., Cook, P. A., Zheng, Y., Egan, A., Yushkevich, P. A., & Gee, J. C. (2010). N4ITK_Improved_N3_Bias_Correction. IEE Transaction on Medical Imaging, 29(6), 1310–1320.
+
