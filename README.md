@@ -76,7 +76,7 @@ __Kelly Payette:__ neonatal segmentation algorithm
 # Running the pipeline: 
   *	Save the following in your working directory: ‘DTI_Pipeline.py’, ‘config_dti.json’, ‘pipe_helpers’, ‘resized_atlas_39_t2_h_padded.nii.gz’
   *	Fill out the ‘config_dti.json’ to your needs. 
-  *	Have the following data structure of your images you’d like to process and name the files like this: 
+  *	Have the following data __structure__ of your images you’d like to process and __name__ the files like this: 
 
 
    	 ... <base_dir>/<subj_id>/t2
