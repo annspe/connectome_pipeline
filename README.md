@@ -75,7 +75,7 @@ Kelly Payette: neonatal segmentation algorithm
   *	Have the following data structure of your images you’d like to process and name the files like this: 
 
 
-   	 ... <base_dir>/<subj_id>/t2/
+   	 ... <base_dir>/<subj_id>/t2
 
 
    	                        ./T2_SVRTK.nii.gz # a good anatomical image, not necessarily t2)
