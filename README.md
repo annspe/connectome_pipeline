@@ -74,7 +74,7 @@ __Kelly Payette:__ neonatal segmentation algorithm (kelly.payette@kispi.uzh.ch)
 
 
 # Running the pipeline: 
-  *	Save the following in your working directory: ‘DTI_Pipeline.py’, ‘config_dti.json’, ‘pipe_helpers’, ‘resized_atlas_39_t2_h_padded.nii.gz’
+  *	Save the following in your working directory: ‘DTI_Pipeline.py’, ‘config_dti.json’, ‘pipe_helpers’
   *	Fill out the [config_dti.json](config_dti.json) to your needs. 
   *	Have the following data __structure__ of your images you’d like to process and __name__ the files like this: 
 
@@ -100,6 +100,10 @@ __Kelly Payette:__ neonatal segmentation algorithm (kelly.payette@kispi.uzh.ch)
       * q- and s-form are identical. If not make them identical (eg. fslorient -qform2sform xx.nii.gz)   
       * when providing the 5tt image that it is saved in the subject folder under /processing/t2/Labels/5tt_reg_to_dwi.nii.gz and is registered to the subject diffusion space and meets the MRtrix criteria. (5ttcheck command in MRtrix)
       *	when providing a response function (rf) that it must be saved under the current working directory /Group/Comparison/responsemean. Depending on the rf, save it as response_sing_wm_mean.txt resp. response_threetiss_wm_mean.txt
+   
+  * In case you want to use the segmentation model for neonatal segmentation:
+      * add ‘resized_atlas_T2.nii.gz’ to your working directory [Link to the file will follow]
+      * add 'neonate_seg_tf2_v4.h5' to your 'pipe_helper' directory [Link to the file will follow]
       
   * Activate your virtual environment 
 
