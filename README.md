@@ -4,19 +4,53 @@
 
 This pipeline creates structural connectomes based on single-shell diffusion MR images (dMRI) and good resolution structural images. It’s applicable for neonatal, school-age or adolescent data and it includes the following steps: 
 Preprocessing dMRI:
+
+
   •	denoising (DIPY) 
+
+  
   •	gibbs unringing (MRrix)
+  
+  
   •	slice-to-volume eddy current correction (FSL)
+  
+  
   •	B1 bias field correction (MRtrix) 
+
+
+
+
 Structural preprocessing: 
+
+  
   •	Neonatal tissue segmentation (based on inhouse UNet algorithm by Kelly Payette, or option to use FSL or Freesurfer output)
+  
+  
   •	5-tissue-type (5tt) creation 
+
+
+
+
 Tractogram creation (MRtrix): 
+
+  
   •	response function estimation
+  
+  
   •	orientation distribution fonction (ODF) computation (SSST, SS2T, SS3T)
+  
+  
   •	anatomically constrained tractography (ACT) , SIFT(2) filtering
+
+
+
+
 Connecome creration (MRtrix): 
+
+  
   •	GM parcellation based on an atlas
+  
+  
   •	connectome creation
 
 
