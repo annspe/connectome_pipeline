@@ -27,7 +27,7 @@
   "//5tt_comment_no": "will use the in-house UNET for neonatal segmentation by Kelly Payette", 
   "freesurfer_version": "5.3",
 
-  "seg_atlas_path": "./resized_atlas_39_t2_h_padded.nii.gz",
+  "seg_atlas_path": "./resized_atlas_T2.nii.gz",
   "//segmentation_path": "Atlas used for segmentation of this specific age group correctly padded", 
 
   "seeding": "dynamic", 
