@@ -28,7 +28,7 @@
   "freesurfer_version": "5.3",
 
   "seg_atlas_path": "./resized_atlas_T2.nii.gz",
-  "//segmentation_path": "Atlas used for segmentation of this specific age group correctly padded", 
+  "//segmentation_path": "Atlas used for segmentation of neonatal age group correctly padded", 
 
   "seeding": "dynamic", 
   "//seeding_alternatives":  "dynamic, GMWM",
