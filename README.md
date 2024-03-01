@@ -24,13 +24,14 @@ Connecome creration (MRtrix):
 Anna Speckert: main author, pipeline implementation 
 Kelly Payette: neonatal segmentation algorithm 
 
+
 # Prerequisites to use the pipeline: 
 • The following software need to be added to your environmental variable $PATH: MRtrix3, ANTs, fsl, MRtrix3Tissue, cuda-8.0, Slicer, c3d
   If you'll use freesurfer for segmentation, you need to add freesurfer: freesurfer (FREESURFER_HOME="/directory", FREESURFER_HOME/SetUpFreeSurfer.sh, export SUBJECTS_DIR="/directory") 
 •	Create a virtual environment based on the requirements saved in  requirements_venv1.txt (works in Python 3.8) 
 
 
-# Running the pipeline:
+# Running the pipeline: 
   •	Save the following in your working directory: ‘DTI_Pipeline.py’, ‘config_dti.json’, ‘pipe_helpers’, ‘resized_atlas_39_t2_h_padded.nii.gz’
   •	Fill out the ‘config_dti.json’ to your needs. 
   •	Have the following data structure of your images you’d like to process and name the files like this: 
