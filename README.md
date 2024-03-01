@@ -116,7 +116,7 @@ __Kelly Payette:__ neonatal segmentation algorithm (kelly.payette@kispi.uzh.ch)
 # Citations:
 
 
-* Pipeline is described in: [todo]
+* Pipeline is described in: [will follow]
 
 
 
