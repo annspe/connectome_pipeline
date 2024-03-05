@@ -102,8 +102,8 @@ __Kelly Payette:__ neonatal segmentation (kelly.payette@kispi.uzh.ch)
       *	when providing a response function (rf) that it must be saved under the current working directory + /Group/Comparison/responsemean. Depending on the rf, save it as response_sing_wm_mean.txt resp. response_threetiss_wm_mean.txt
    
   * In case you want to use the segmentation model for neonatal segmentation:
-      * add ‘resized_atlas_T2.nii.gz’ to your working directory [Link to the file will follow]
-      * add 'neonate_seg_tf2_v4.h5' to your 'pipe_helper' directory [Link to the file will follow]
+      * add ‘resized_atlas_T2.nii.gz’ to your working directory: https://drive.switch.ch/index.php/s/PyrnsQY87q2plhZ  
+      * add 'neonate_seg_tf2_v4.h5' to your 'pipe_helper' directory: https://drive.switch.ch/index.php/s/ruzjwm4eHNBDPmK
       
   * Activate your virtual environment 
 
