@@ -68,6 +68,8 @@ __Kelly Payette:__ neonatal segmentation (kelly.payette@kispi.uzh.ch)
 
 
 From the __University of Zurich__ and __University Children's Hospital Zurich__
+
+
 Under supervision of Prof. Andras Jakab (andras.jakab@kispi.uzh.ch) 
 
 
