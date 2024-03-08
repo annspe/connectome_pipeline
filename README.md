@@ -59,12 +59,16 @@ __Connecome creration (MRtrix):__
 
 
 # Contributors:
+
 __Anna Speckert:__ main author, pipeline implementation (anna.speckert@kispi.uzh.ch)
 
 
 __Kelly Payette:__ neonatal segmentation (kelly.payette@kispi.uzh.ch)
 
 
+
+From the __University of Zurich__ and __University Children's Hospital Zurich__
+Under supervision of Prof. Andras Jakab (andras.jakab@kispi.uzh.ch) 
 
 
 # Prerequisites to use the pipeline: 
