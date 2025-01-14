@@ -124,7 +124,8 @@ Under supervision of Prof. Andras Jakab (andras.jakab@kispi.uzh.ch)
 # Citations:
 
 
-* Pipeline is described in: Speckert, A., Payette, K., Knirsch, W., von Rhein, M., Grehten, P., Kottke, R., ... & Jakab, A. (2025). Altered Connectome Topology in Newborns at Risk for Cognitive Developmental Delay: A Cross‐Etiologic Study. Human Brain Mapping, 46(1), e70084.
+* Pipeline is described in:
+* Speckert, A., Payette, K., Knirsch, W., von Rhein, M., Grehten, P., Kottke, R., ... & Jakab, A. (2025). Altered Connectome Topology in Newborns at Risk for Cognitive Developmental Delay: A Cross‐Etiologic Study. Human Brain Mapping, 46(1), e70084.
 
 
 
